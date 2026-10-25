@@ -1,0 +1,13 @@
+'use strict';
+const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict');
+const source=fs.readFileSync('library.js','utf8');
+const parse=vm.runInNewContext(source.slice(source.indexOf('function parseEntries('),source.indexOf("$('preview').onclick"))+';parseEntries');
+const result=parse('hard-working 工作努力的\nping-pong\t乒乓球\ntake care of 爱护；照顾\nice cream\t冰激凌\nWednesday 星期三');
+assert.equal(result.errors.length,0);
+assert.equal(JSON.stringify(result.entries.map(e=>e.text)),JSON.stringify(['hard-working','ping-pong','take care of','ice cream','wednesday']));
+assert.equal(result.entries[2].meaning,'爱护；照顾');
+assert.equal(parse('ice cream').entries[0].meaning,'');
+assert(parse("can't 不能").errors.length);
+assert(parse('ice--cream 冰激凌').errors.length);
+assert(parse('ice cream 冰激凌\nICE CREAM 冰淇淋').errors.some(e=>e.includes('重复')));
+console.log('Library parser tests passed: phrases, hyphens, Chinese meanings, duplicates, invalid punctuation');

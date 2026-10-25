@@ -1,0 +1,525 @@
+{
+  "textbook": {
+    "name": "英语",
+    "edition": "人教版",
+    "grade": "五年级",
+    "volume": "上册"
+  },
+  "source": "用户提供的单元词汇表照片及补图；最初第 2、3 张照片重复，已去重。",
+  "coverage": "Unit 1–6 完整，共 119 个词条。",
+  "lists": [
+    {
+      "name": "Unit 1",
+      "description": "来源：用户提供课本照片；本单元图片完整。",
+      "entries": [
+        {
+          "text": "team",
+          "meaning": "（游戏或运动的）队；（一起工作的）组，班"
+        },
+        {
+          "text": "player",
+          "meaning": "运动员；参赛选手"
+        },
+        {
+          "text": "him",
+          "meaning": "他"
+        },
+        {
+          "text": "lovely",
+          "meaning": "美丽的；优美的"
+        },
+        {
+          "text": "clever",
+          "meaning": "聪明的；聪颖的"
+        },
+        {
+          "text": "young",
+          "meaning": "幼小的；年轻的"
+        },
+        {
+          "text": "hard-working",
+          "meaning": "工作努力的；辛勤的"
+        },
+        {
+          "text": "science",
+          "meaning": "科学；自然科学"
+        },
+        {
+          "text": "robot",
+          "meaning": "机器人"
+        },
+        {
+          "text": "jump",
+          "meaning": "跳；跃"
+        },
+        {
+          "text": "rope",
+          "meaning": "绳；粗绳"
+        },
+        {
+          "text": "piano",
+          "meaning": "钢琴"
+        },
+        {
+          "text": "chess",
+          "meaning": "国际象棋"
+        },
+        {
+          "text": "front",
+          "meaning": "前部"
+        },
+        {
+          "text": "easy",
+          "meaning": "容易的；轻易的"
+        },
+        {
+          "text": "star",
+          "meaning": "歌唱（或表演）明星"
+        },
+        {
+          "text": "wonderful",
+          "meaning": "令人赞叹的；精彩的；绝妙的"
+        },
+        {
+          "text": "australia",
+          "meaning": "澳大利亚"
+        }
+      ]
+    },
+    {
+      "name": "Unit 2",
+      "description": "来源：用户提供课本照片；本单元图片完整。",
+      "entries": [
+        {
+          "text": "sad",
+          "meaning": "悲哀的；难过的"
+        },
+        {
+          "text": "matter",
+          "meaning": "事情；问题"
+        },
+        {
+          "text": "project",
+          "meaning": "项目；方案"
+        },
+        {
+          "text": "centre",
+          "meaning": "中心"
+        },
+        {
+          "text": "agree",
+          "meaning": "同意；赞成"
+        },
+        {
+          "text": "finish",
+          "meaning": "完成；做好"
+        },
+        {
+          "text": "worried",
+          "meaning": "担心的；担忧的"
+        },
+        {
+          "text": "both",
+          "meaning": "两者"
+        },
+        {
+          "text": "excited",
+          "meaning": "激动的；兴奋的"
+        },
+        {
+          "text": "wrong",
+          "meaning": "错误的"
+        },
+        {
+          "text": "angry",
+          "meaning": "愤怒的；生气的"
+        },
+        {
+          "text": "afraid",
+          "meaning": "担心；害怕"
+        },
+        {
+          "text": "parent",
+          "meaning": "父亲；母亲"
+        },
+        {
+          "text": "ask",
+          "meaning": "问；询问"
+        },
+        {
+          "text": "laugh",
+          "meaning": "笑"
+        },
+        {
+          "text": "move",
+          "meaning": "搬家；移动"
+        },
+        {
+          "text": "yours",
+          "meaning": "您的（用于书信结尾的签名前）"
+        }
+      ]
+    },
+    {
+      "name": "Unit 3",
+      "description": "来源：用户提供课本照片；本单元图片完整。",
+      "entries": [
+        {
+          "text": "wednesday",
+          "meaning": "星期三"
+        },
+        {
+          "text": "subject",
+          "meaning": "科目；学科"
+        },
+        {
+          "text": "tuesday",
+          "meaning": "星期二"
+        },
+        {
+          "text": "friday",
+          "meaning": "星期五"
+        },
+        {
+          "text": "because",
+          "meaning": "因为"
+        },
+        {
+          "text": "monday",
+          "meaning": "星期一"
+        },
+        {
+          "text": "thursday",
+          "meaning": "星期四"
+        },
+        {
+          "text": "start",
+          "meaning": "开始"
+        },
+        {
+          "text": "usually",
+          "meaning": "通常地；经常地"
+        },
+        {
+          "text": "weekend",
+          "meaning": "周末"
+        },
+        {
+          "text": "sometimes",
+          "meaning": "有时；间或"
+        },
+        {
+          "text": "saturday",
+          "meaning": "星期六"
+        },
+        {
+          "text": "sunday",
+          "meaning": "星期日"
+        },
+        {
+          "text": "lesson",
+          "meaning": "课；一节课"
+        },
+        {
+          "text": "evening",
+          "meaning": "晚上；傍晚"
+        },
+        {
+          "text": "answer",
+          "meaning": "答复；回答"
+        },
+        {
+          "text": "ping-pong",
+          "meaning": "乒乓球"
+        },
+        {
+          "text": "night",
+          "meaning": "夜；夜晚"
+        },
+        {
+          "text": "visit",
+          "meaning": "看望；拜访；参观"
+        },
+        {
+          "text": "grandparent",
+          "meaning": "祖父；祖母；外祖父；外祖母"
+        }
+      ]
+    },
+    {
+      "name": "Unit 4",
+      "description": "来源：用户提供课本照片；本单元图片完整。",
+      "entries": [
+        {
+          "text": "stay",
+          "meaning": "待；保持；继续是"
+        },
+        {
+          "text": "should",
+          "meaning": "（提出或征询建议）该，可以"
+        },
+        {
+          "text": "flu",
+          "meaning": "流行性感冒；流感"
+        },
+        {
+          "text": "else",
+          "meaning": "其他的；别的"
+        },
+        {
+          "text": "exercise",
+          "meaning": "锻炼；训练；操练"
+        },
+        {
+          "text": "enough",
+          "meaning": "足够的；充足的；充分的"
+        },
+        {
+          "text": "if",
+          "meaning": "如果；假若；倘若"
+        },
+        {
+          "text": "habit",
+          "meaning": "习惯"
+        },
+        {
+          "text": "house",
+          "meaning": "房子"
+        },
+        {
+          "text": "show",
+          "meaning": "（电视或广播）节目"
+        },
+        {
+          "text": "phone",
+          "meaning": "电话；电话机"
+        },
+        {
+          "text": "then",
+          "meaning": "那么；因此；既然如此"
+        },
+        {
+          "text": "rest",
+          "meaning": "休息；放松"
+        },
+        {
+          "text": "take care of",
+          "meaning": "爱护；照顾"
+        },
+        {
+          "text": "check",
+          "meaning": "查看；查明"
+        },
+        {
+          "text": "less",
+          "meaning": "（与不可数名词连用）较少的，更少的"
+        },
+        {
+          "text": "brush",
+          "meaning": "（用刷子）刷净，刷亮，刷平顺"
+        },
+        {
+          "text": "tooth",
+          "meaning": "牙；齿（复数 teeth）"
+        },
+        {
+          "text": "twice",
+          "meaning": "两次；两遍"
+        },
+        {
+          "text": "hour",
+          "meaning": "小时"
+        },
+        {
+          "text": "free",
+          "meaning": "没有安排活动的；空闲的"
+        }
+      ]
+    },
+    {
+      "name": "Unit 5",
+      "description": "来源：用户提供课本照片；本单元图片完整（含补图）。",
+      "entries": [
+        {
+          "text": "hungry",
+          "meaning": "感到饿的"
+        },
+        {
+          "text": "beef",
+          "meaning": "牛肉"
+        },
+        {
+          "text": "ice cream",
+          "meaning": "（一份）冰激凌"
+        },
+        {
+          "text": "little",
+          "meaning": "少许；一点"
+        },
+        {
+          "text": "dumpling",
+          "meaning": "饺子；汤圆"
+        },
+        {
+          "text": "tea",
+          "meaning": "茶叶；茶；茶水"
+        },
+        {
+          "text": "hamburger",
+          "meaning": "汉堡包；汉堡牛肉饼"
+        },
+        {
+          "text": "mrs",
+          "meaning": "（用于女子的姓氏或姓名前）太太，夫人"
+        },
+        {
+          "text": "coconut",
+          "meaning": "椰子"
+        },
+        {
+          "text": "interesting",
+          "meaning": "有趣的；有吸引力的"
+        },
+        {
+          "text": "seed",
+          "meaning": "种子；籽"
+        },
+        {
+          "text": "pull",
+          "meaning": "拔出；抽出"
+        },
+        {
+          "text": "stem",
+          "meaning": "（花草的）茎；（花或叶的）梗，柄"
+        },
+        {
+          "text": "root",
+          "meaning": "根；根茎"
+        },
+        {
+          "text": "lotus",
+          "meaning": "莲属植物"
+        },
+        {
+          "text": "lake",
+          "meaning": "湖；湖泊"
+        },
+        {
+          "text": "world",
+          "meaning": "世界；地球；天下"
+        },
+        {
+          "text": "round",
+          "meaning": "圆形的；环形的；球形的"
+        },
+        {
+          "text": "different",
+          "meaning": "不同的；有区别的；有差异的"
+        },
+        {
+          "text": "way",
+          "meaning": "方法；手段；途径；方式"
+        }
+      ]
+    },
+    {
+      "name": "Unit 6",
+      "description": "来源：用户补发课本照片；本单元图片完整。",
+      "entries": [
+        {
+          "text": "river",
+          "meaning": "河；江"
+        },
+        {
+          "text": "nature",
+          "meaning": "自然界；大自然"
+        },
+        {
+          "text": "waterfall",
+          "meaning": "瀑布"
+        },
+        {
+          "text": "forest",
+          "meaning": "森林；林区"
+        },
+        {
+          "text": "famous",
+          "meaning": "著名的；出名的"
+        },
+        {
+          "text": "mountain",
+          "meaning": "高山；山岳"
+        },
+        {
+          "text": "wind",
+          "meaning": "风；气流"
+        },
+        {
+          "text": "trip",
+          "meaning": "（尤指短程往返的）旅行，旅游，出行"
+        },
+        {
+          "text": "dangerous",
+          "meaning": "有危险的；不安全的"
+        },
+        {
+          "text": "heavy",
+          "meaning": "程度大的；严重的"
+        },
+        {
+          "text": "hotel",
+          "meaning": "旅馆；旅社"
+        },
+        {
+          "text": "close",
+          "meaning": "关；关闭；闭上"
+        },
+        {
+          "text": "umbrella",
+          "meaning": "伞；雨伞"
+        },
+        {
+          "text": "raincoat",
+          "meaning": "雨衣"
+        },
+        {
+          "text": "worry",
+          "meaning": "担心；担忧；发愁"
+        },
+        {
+          "text": "fine",
+          "meaning": "晴朗的"
+        },
+        {
+          "text": "fog",
+          "meaning": "雾"
+        },
+        {
+          "text": "flood",
+          "meaning": "洪水；水灾"
+        },
+        {
+          "text": "fire",
+          "meaning": "火；火灾"
+        },
+        {
+          "text": "know",
+          "meaning": "知道；了解"
+        },
+        {
+          "text": "before",
+          "meaning": "在……之前"
+        },
+        {
+          "text": "go hiking",
+          "meaning": "徒步旅行"
+        },
+        {
+          "text": "bring",
+          "meaning": "带……到某处；带来；取来"
+        }
+      ]
+    }
+  ],
+  "pending": []
+}
