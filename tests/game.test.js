@@ -4,6 +4,7 @@ const elements=new Map(),handlers={},painted=[];
 const element=id=>{if(!elements.has(id))elements.set(id,{id,style:{},value:id==='range'?'asdfjkl':'',classList:{toggle(){}},addEventListener(type,fn){handlers[id+':'+type]=fn},getContext(){return ctx},getBoundingClientRect(){return {width:900,height:650,left:0,top:0}},textContent:'',innerHTML:''});return elements.get(id)};
 const ctx=new Proxy({fillText:text=>painted.push(text),measureText:t=>({width:t.length*9}),createRadialGradient:()=>({addColorStop(){}})},{get:(obj,key)=>key in obj?obj[key]:()=>{}});
 const context=vm.createContext({console,document:{getElementById:element,querySelector:()=>null,addEventListener(){},body:{classList:{toggle(){}}}},window:{addEventListener:(name,fn)=>handlers[name]=fn},localStorage:{getItem:()=>null,setItem(){}},ResizeObserver:class{observe(){}},requestAnimationFrame(){},activePlayer:null,persistResult:()=>{},interruptSession:()=>{}});
+vm.runInContext(fs.readFileSync('visuals.js','utf8'),context);
 vm.runInContext(fs.readFileSync('game.js','utf8'),context);
 function run(code){return vm.runInContext(code,context)}
 function key(k){handlers.keydown({key:k,code:k,target:{tagName:'BODY',closest:()=>null},preventDefault(){}})}
@@ -120,3 +121,17 @@ for(const [x,y] of [[45,45],[855,45],[45,600],[855,600],[450,325]]){
  assert(run('headCards(movingHydra).every(c=>c.y+c.h< movingHydra.y+Math.sin(t*4+movingHydra.seed)*3-40 || c.y>movingHydra.y+Math.sin(t*4+movingHydra.seed)*3+40)'));
 }
 console.log('Hydra trio, targeting, tracking and body clearance tests passed');
+// A visual switch must not reset gameplay, alter target selection or consume RNG.
+run("practice=false;reset();enemies=[];t=250;nextBossAt=0;add(7);selectTarget(enemies[0],enemies[0].heads[0]);input='s';paused=true;");
+const snapshot=run('JSON.stringify({t,hp,score,kills,input,paused,enemies,locked})');
+run("Math.random=()=>{throw Error('Renderer consumed gameplay RNG')};");
+for(const style of ['classic','illustrated']){
+ run(`visualStyle='${style}';draw();`);
+ assert.equal(run('JSON.stringify({t,hp,score,kills,input,paused,enemies,locked})'),snapshot);
+ for(let type=0;type<8;type++)run(`ctx.save();drawIllustratedMonster({type:${type},seed:0,parts:9});ctx.restore()`);
+}
+element('visualStyle').onclick();
+assert.equal(run('visualStyle'),'classic');
+assert.equal(run('JSON.stringify({t,hp,score,kills,input,paused,enemies,locked})'),snapshot);
+run('Math.random=savedRandom');
+console.log('Visual modes preserve gameplay and render all eight monsters without gameplay RNG');

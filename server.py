@@ -16,7 +16,7 @@ DIFFICULTIES = {'easy':{'full':92,'edges':6,'hidden':2},'medium':{'full':80,'edg
 DEFAULT_HINT_CONFIG = {'0':'full','1':'full','2':'first','3':'first','4':'edges','5':'hidden','6':'edges','7':'hidden'}
 HINTS = {'full', 'first', 'edges', 'hidden'}
 RANGES = {'asdfjkl', 'qwertyuiop', 'zxcvbnm', 'abcdefghijklmnopqrstuvwxyz'}
-STATIC = {'index.html', 'game.js', 'style.css', 'app.js', 'library.html', 'library.js', 'keyboard-hero.html'}
+STATIC = {'visuals.js', 'index.html', 'game.js', 'style.css', 'app.js', 'library.html', 'library.js', 'keyboard-hero.html'}
 BUILTIN = json.loads((ROOT / 'vocabulary.json').read_text())
 
 class Invalid(ValueError):

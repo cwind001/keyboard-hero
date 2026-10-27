@@ -8,6 +8,7 @@ game = re.sub(r'const builtinVocabulary=.*?;\n', lambda _: 'const builtinVocabul
 (root / 'game.js').write_text(game)
 html = (root / 'index.html').read_text()
 html = html.replace('<link rel="stylesheet" href="style.css">', '<style>' + (root / 'style.css').read_text() + '</style>')
+html = html.replace('<script src="visuals.js"></script>', '<script>' + (root / 'visuals.js').read_text() + '</script>')
 html = html.replace('<script src="game.js"></script>', '<script>' + (root / 'game.js').read_text() + '</script>')
 html = html.replace('<script src="app.js"></script>', '<script>' + (root / 'app.js').read_text() + '</script>')
 (root / 'keyboard-hero.html').write_text(html)
